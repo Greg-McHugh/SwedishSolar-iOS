@@ -1,0 +1,6 @@
+framework module Pods_Swedish_Solar {
+  umbrella header "Pods-Swedish Solar-umbrella.h"
+
+  export *
+  module * { export * }
+}

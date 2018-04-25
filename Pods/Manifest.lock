@@ -1,0 +1,71 @@
+PODS:
+  - AWSAuthCore (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSAuthUI (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoAuth (2.6.14):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProvider (2.6.14):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.14)
+  - AWSDynamoDB (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSIoT (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSLambda (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSMobileClient (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+  - AWSUserPoolsSignIn (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCognitoIdentityProvider (= 2.6.14)
+  - Moscapsule (0.6.2)
+  - OpenSSL-Universal (1.0.2.13)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - AWSAuthUI
+  - AWSCognitoAuth
+  - AWSDynamoDB
+  - AWSIoT
+  - AWSLambda
+  - AWSMobileClient
+  - AWSUserPoolsSignIn
+  - Moscapsule (from `https://github.com/flightonary/Moscapsule.git`)
+  - OpenSSL-Universal
+  - SVProgressHUD
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Moscapsule:
+    :git: https://github.com/flightonary/Moscapsule.git
+
+CHECKOUT OPTIONS:
+  Moscapsule:
+    :commit: b6e268e9254fe28a0f897471514192904133a860
+    :git: https://github.com/flightonary/Moscapsule.git
+
+SPEC CHECKSUMS:
+  AWSAuthCore: b13b0cb87abac6d44c52d8b965bbdb4cd0842017
+  AWSAuthUI: 6c4b7eb77ff6f6f96a2a8661dc57cc840234dfbb
+  AWSCognitoAuth: 85db60e336625a3681f4b565a1b77d957f25699b
+  AWSCognitoIdentityProvider: 5055dd6a04040582191b0f3a80723e67fc55eaf4
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8c883c2623d314dd82cca3809527784e1d1a02e5
+  AWSDynamoDB: ecbc36963c5dd62354d8e844312a3a45f59046b9
+  AWSIoT: baa2cb54d872926817f516245c5a6eb2cd60bbe2
+  AWSLambda: 3b878eaad7e39fc8caa82b8b499bbcfb3a75b262
+  AWSMobileClient: 4467dd19e5e50d9a115b37e7be3ffb689c0b285c
+  AWSUserPoolsSignIn: 8c52ad458e6e6fbf385a41a6b5d35a99c707db37
+  Moscapsule: 7c272cc4f434b5805effc237ecb1668fdb7aba5d
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: eff653cc1610666e7202b3d0f42d1991268b95b8
+
+COCOAPODS: 1.4.0

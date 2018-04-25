@@ -1,0 +1,47 @@
+ - add subscribing in detailViewController
+ - pickerView for choosing actuator length
+ - optimizationStatus = on/off : String
+   positionState = open/close : String
+   currPos = inches : Int
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MainTableViewController
+ - in refreshList(), only query for UserAwnings with current identityId as the partition key
+    then query for all Awnings with the MAC Address found in query
+    and save User_Has_Awning and Awning in pairs in tablerows
+ - display name, status, currentAngle, and automation of each Awning returned.
+ - integrate user login for id retrieval
+ - add signout action and handling
+ - make each cell show awning state with IoT
+ - add code for attaching principal policty of user
+    https://github.com/awslabs/aws-sdk-ios-samples/issues/221
+
+DynamoDBManager
+ - make tablerow hold User_has_Awning and Awning
+
+AddViewController
+ - check if given MAC Address exists for an awning in Awnings table
+    don't add and return an error to user if it doesn't
+
+DetailViewController
+ - have each awning unique from each other (obviously)
+ - viewDidLoad() should initialize with states of registered devices
+ - integrate user login for id retrieval
+- Rename button brings up alertcontroller with textfield for changing name
+    change name in nameTextField
+    update name in User_has_Awning record
